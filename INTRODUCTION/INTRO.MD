@@ -6,4 +6,5 @@
 - It is in the form of querys only it means statements\
 - End of the statements we should conform put ' ; '
 - SQL is the 1986 (AISO) they introduced, 1987 (ISO) they published officially 
+- In RDMS the data in the form of tables in the database 
 
