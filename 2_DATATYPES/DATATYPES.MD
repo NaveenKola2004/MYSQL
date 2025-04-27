@@ -39,22 +39,21 @@ Used for numbers (duh). But wait, there's nuance.
 |TEXT|	65,535 chars|	Use for big chunks of text. Can't index fully.|
 |TINYTEXT, MEDIUMTEXT, LONGTEXT|| – for progressively bigger texts.|
 
-<!-- 📅 Date and Time Data Types
-Time travel? Not yet. But close.
+# Date and Time Data Types
+- Time travel? Not yet. But close.
 
 
-Type	Format	Example
+- Type	Format	Example
+```sql
 DATE	YYYY-MM-DD	2025-04-22
 DATETIME	YYYY-MM-DD HH:MM:SS	2025-04-22 12:30:45
 TIMESTAMP	Same as DATETIME, but auto-updates to current time.	
 TIME	HH:MM:SS	14:45:30
 YEAR	YYYY	2025
-🧠 Boolean Data Type
+```
+
+# Boolean Data Type
 
 Type	Notes
 BOOLEAN or BOOL	Alias for TINYINT(1) under the hood. 0 = false, 1 = true
 🪄 Other Cool Data Types
-
-Type	Purpose
-ENUM	Restrict column to one of a list. e.g. ENUM('small', 'medium', 'large')
-SET	Like ENUM, but allows multiple selections. -->
