@@ -43,13 +43,16 @@ Used for numbers (duh). But wait, there's nuance.
 Time travel? Not yet. But close.
 
 
-Type	Format	Example
+- Type	Format	Example
+```sql
 DATE	YYYY-MM-DD	2025-04-22
 DATETIME	YYYY-MM-DD HH:MM:SS	2025-04-22 12:30:45
 TIMESTAMP	Same as DATETIME, but auto-updates to current time.	
 TIME	HH:MM:SS	14:45:30
 YEAR	YYYY	2025
-🧠 Boolean Data Type
+```
+
+# Boolean Data Type
 
 Type	Notes
 BOOLEAN or BOOL	Alias for TINYINT(1) under the hood. 0 = false, 1 = true
