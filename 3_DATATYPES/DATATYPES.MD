@@ -39,7 +39,7 @@ Used for numbers (duh). But wait, there's nuance.
 |TEXT|	65,535 chars|	Use for big chunks of text. Can't index fully.|
 |TINYTEXT, MEDIUMTEXT, LONGTEXT|| – for progressively bigger texts.|
 
-<!-- 📅 Date and Time Data Types
+📅 Date and Time Data Types
 Time travel? Not yet. But close.
 
 
@@ -57,4 +57,4 @@ BOOLEAN or BOOL	Alias for TINYINT(1) under the hood. 0 = false, 1 = true
 
 Type	Purpose
 ENUM	Restrict column to one of a list. e.g. ENUM('small', 'medium', 'large')
-SET	Like ENUM, but allows multiple selections. -->
+SET	Like ENUM, but allows multiple selections.
