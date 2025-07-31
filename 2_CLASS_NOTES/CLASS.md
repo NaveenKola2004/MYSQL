@@ -139,3 +139,34 @@ datediff(curdate(),'2025/07/29') AS MUTHAYAMMAL;
 - right join
 
 --- 
+
+# DCl
+
+## create the new user
+- go to -> user and previliges -> add account -> username and password mention ->
+got to main interface 
+# GRANT ,REVOCK
+
+```sql
+grant select,insert on database_name.* to "username" ;
+```
+
+
+# TCL
+- set
+- roll back
+- commit
+- save point
+
+```sql
+start transaction
+perform the operation
+
+rollback
+
+commit 
+
+save point any name;
+
+
+```
