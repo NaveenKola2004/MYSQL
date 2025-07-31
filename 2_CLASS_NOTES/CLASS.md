@@ -100,3 +100,42 @@ set = sql_safe_update=0 or 1;
 
 
 # BETWEEN,LIKE,DESC,like,ordered by,case,group by,limit
+
+# Day-2 of sql
+
+- NOT NULL 
+- we can't leave tha column row data  empty 
+
+- Aggragate function
+
+```sql
+
+
+Sum(column name)
+MAX(column name )
+AVG(column name)
+COUNT(column name)
+MIN(column name)
+LCASE(column name )
+UCASE(column name)
+char_length(column name)
+concat(column_name value)
+----
+select NOW ()
+SELECT DATE(NOW())
+curdate();
+date_format(curdate(),'%y/%m/%m')
+datediff(curdate(),'2025/07/29') AS MUTHAYAMMAL;
+```
+
+
+# foreign key
+
+# joins 
+- inner join
+- cross join 
+- join
+- left join
+- right join
+
+--- 
